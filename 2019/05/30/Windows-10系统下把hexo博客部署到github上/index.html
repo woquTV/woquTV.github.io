@@ -6,15 +6,28 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>woquTV</title>
+  <title>Windows 10系统下把hexo博客部署到github上 | woquTV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="woquTV">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="参考b站up主:CodeSheep的视频：https://www.bilibili.com/video/av44544186?from=search&amp;amp;seid=1621519341015391579">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Windows 10系统下把hexo博客部署到github上">
+<meta property="og:url" content="http://yoursite.com/2019/05/30/Windows-10系统下把hexo博客部署到github上/index.html">
 <meta property="og:site_name" content="woquTV">
+<meta property="og:description" content="参考b站up主:CodeSheep的视频：https://www.bilibili.com/video/av44544186?from=search&amp;amp;seid=1621519341015391579">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/img/02001.png">
+<meta property="og:image" content="http://yoursite.com/img/02002.png">
+<meta property="og:image" content="http://yoursite.com/img/02003.png">
+<meta property="og:image" content="http://yoursite.com/img/02004.png">
+<meta property="og:image" content="http://yoursite.com/img/02005.png">
+<meta property="og:image" content="http://yoursite.com/img/02006.png">
+<meta property="og:image" content="http://yoursite.com/img/02007.png">
+<meta property="og:image" content="http://yoursite.com/img/02008.png">
+<meta property="og:updated_time" content="2019-05-30T03:06:27.214Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="woquTV">
+<meta name="twitter:title" content="Windows 10系统下把hexo博客部署到github上">
+<meta name="twitter:description" content="参考b站up主:CodeSheep的视频：https://www.bilibili.com/video/av44544186?from=search&amp;amp;seid=1621519341015391579">
+<meta name="twitter:image" content="http://yoursite.com/img/02001.png">
   
     <link rel="alternative" href="/atom.xml" title="woquTV" type="application/atom+xml">
   
@@ -154,16 +167,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-Windows-10系统下把hexo博客部署到github上" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-Windows-10系统下把hexo博客部署到github上" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/30/Windows-10系统下把hexo博客部署到github上/">Windows 10系统下把hexo博客部署到github上</a>
+    <h1 class="article-title" itemprop="name">
+      Windows 10系统下把hexo博客部署到github上
     </h1>
   
 
@@ -177,11 +188,43 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>参考b站up主:CodeSheep的视频：<br><a href="https://www.bilibili.com/video/av44544186?from=search&amp;seid=1621519341015391579" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186?from=search&amp;seid=1621519341015391579</a></p>
-        
-          <a class="article-more-a" href="/2019/05/30/Windows-10系统下把hexo博客部署到github上/#more">more >></a>
-        
+<a id="more"></a>
+<h2 id="01-先注册一个github的账号"><a href="#01-先注册一个github的账号" class="headerlink" title="01.先注册一个github的账号"></a>01.先注册一个github的账号</h2><p>官网地址 <a href="https://github.com" target="_blank" rel="noopener">https://github.com</a><br><img src="/img/02001.png" alt="注册github账号" title="注册github账号"></p>
+<h2 id="注册登录完成后"><a href="#注册登录完成后" class="headerlink" title="注册登录完成后"></a>注册登录完成后</h2><p>按照下图新建一个仓库<br><img src="/img/02002.png" alt="新建仓库" title="新建仓库"><br>之后填写信息<br><img src="/img/02003.png" alt="填写信息" title="填写信息"><br>写完之后点击create按钮，仓库就创建完成了。</p>
+<h2 id="02-安装-Git-工具"><a href="#02-安装-Git-工具" class="headerlink" title="02.安装 Git 工具"></a>02.安装 Git 工具</h2><p>首先还是在你建立的 blog文件夹根目录那里鼠标右键点击<code>Git Bash Here</code><br>可以来到bash 终端,输入以下这句<br><img src="/img/02004.png" alt></p>
+<h2 id="之后他会自己下载安装"><a href="#之后他会自己下载安装" class="headerlink" title="之后他会自己下载安装"></a>之后他会自己下载安装</h2><p>安装完成之后找到之间博客文件夹根目录下的_config.yml<br><img src="/img/02005.png" alt><br>打开拉到最下面，把内容增添成和我下图一样，红箭头指的地方改成自己的<br>注意冒号为英文，冒号后有一个空格<br>改好后保存退出就行了<br><img src="/img/02006.png" alt></p>
+<h2 id="03-部署到远端"><a href="#03-部署到远端" class="headerlink" title="03.部署到远端"></a>03.部署到远端</h2><p>继续在你的命令窗口输入hexo d<br><img src="/img/02007.png" alt></p>
+<h2 id="期间可能会让你输入账户密码按照提示操作就行了"><a href="#期间可能会让你输入账户密码按照提示操作就行了" class="headerlink" title="期间可能会让你输入账户密码按照提示操作就行了"></a>期间可能会让你输入账户密码按照提示操作就行了</h2><p>之后回到你的GitHub仓库刷新一下<br>会看到下图箭头所指部分发生变化，<br><img src="/img/02008.png" alt></p>
+<p>之后就可以用红圈里的地址在浏览器进行访问了<br>（如何出现无法访问此网站 需要等一会多刷新几次）</p>
+<p>博客就成功的部署在github上了，以后可以在手机电脑浏览器之间访问你的博客了</p>
+<hr>
+<p>下一篇博客：修改hexo博客主题</p>
+<hr>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>b站up主:CodeSheep的视频：<br><a href="https://www.bilibili.com/video/av44544186?from=search&amp;seid=1621519341015391579" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186?from=search&amp;seid=1621519341015391579</a></p>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -190,16 +233,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/30/Windows-10系统下把hexo博客部署到github上/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/05/30/Windows-10系统下把hexo博客部署到github上/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2019/05/28/Windos10系统-64位下搭建hexoo博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Windos10系统 64位环境下搭建hexo博客</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -219,73 +321,14 @@
 
 
 
-
   
-    <article id="post-Windos10系统-64位下搭建hexoo博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/28/Windos10系统-64位下搭建hexoo博客/">Windos10系统 64位环境下搭建hexo博客</a>
-    </h1>
   
 
-        
-        <a href="/2019/05/28/Windos10系统-64位下搭建hexoo博客/" class="archive-article-date">
-  	<time datetime="2019-05-27T16:38:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-28</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>参考b站up主:CodeSheep的视频：<br><a href="https://www.bilibili.com/video/av44544186?from=search&amp;seid=1621519341015391579" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186?from=search&amp;seid=1621519341015391579</a></p>
-        
-          <a class="article-more-a" href="/2019/05/28/Windos10系统-64位下搭建hexoo博客/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/28/Windos10系统-64位下搭建hexoo博客/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
+  
 
   
+
   
 
 
@@ -308,8 +351,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
